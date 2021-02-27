@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>Frame</title>
+</head>
+<body bgcolor="grey">
+<table cellspacing=2 cellpadding=10 BGCOLOR="#e6f7ff" border="3" width="20%" align="left">
+<TR>
+<TD>
+<h2><center> Quick Links </center></h2>
+<h3><a href="#frames"> 1. Frames </a> <br>
+<a href="#frameset"> 2. Frameset </a><br>
+<a href="#LinkingFrames"> 3.Linking Between Frames  </a> <br>
+<br>
+</TD>
+</TR>
+</TABLE>
+<table cellspacing=8 BGCOLOR="#b3c6ff" align="center" width="75%">
+<tr>
+<td><center><h1><U><a id="frames">FRAMES</a></U></h1></center>
+<center><FONT SIZE="4">A webpage may be divided into several blocks called frames. Each frame may display a seperate webpage.<br>
+Frames are used to have the menu in mone frame and the content in another frame.<br><br></FONT SIZE="4">
+<U><I>An Example is given below:</U></I><br><br></center>
+<table border="1" align="center" width="75%">
+<tr>
+<td>
+<B><I>< html><br>
+< head><br>
+< title>EXAMPLE1< / title><br>
+< / head><br>
+< FRAMESET COLS="40%,60%"><br>
+< FRAME SRC="jpg2.jpg" scrolling="No"><br>
+< FRAME SRC="JPG3.jpg"><br>
+< / FRAMESET><br>
+< / HTML></B></I><br><br>
+<a href="new4.html" target="_blank">With the output given as:</a><br>
+<IMG SRC="screenshot1.png">
+</td>
+</tr>
+</table>
+<br>
+<center><h1><U><a id="frameset">FRAMESET</a></U></h1></center>
+<center><FONT SIZE="4">< FRAMESET> defines the characteristics of the frames such as number of frames to be created, orientation, width, height.<br>
+Nested frames are possible.<br><br></FONT SIZE="4">
+<I><U>An Example is given below:</U><br><br></I>
+<table border="1" align="center" width="75%"></center>
+<tr>
+<td>
+<B><I>< html><br>
+< head><br>
+< title>EXAMPLE2< / title><br>
+< / head><br>
+< FRAMESET ROWS="*,*"><br>
+< FRAME SRC="jpg1.jpg"><br>
+< FRAME SRC="new2.html"><br>
+< / FRAMESET><br>
+< / HTML></I></B><br><br>
+<a href="new5.html" target="_blank">With the output given as:</a><br>
+<IMG SRC="screenshot2.png">
+<br>
+</tr>
+</td>
+</table>
+<center><h1><U><a id="LinkingFrames">LINKING BETWEEN FRAMES</a></U></h1></center>
+Links which is discussed in another chapter can also be used to link pages and images between frames.
+<BR><BR>
+<CENTER><I><U>An Example is given below:</CENTER></U><BR></I>
+<table border="1" align="center" width="100%">
+<tr>
+<td>
+<center>Main.html<BR>
+< HTML><BR>
+< HEAD><BR>
+< TITLE>MAIN< / TITLE><BR>
+< / HEAD><BR>
+< FRAMESET COLS="50%,50%"><BR>
+< FRAME SRC="right.html" name="right"><BR>
+< / FRAMESET><BR>
+< / HTML></center><BR>
+<TABLE WIDTH="100%">
+<TR>
+<TD>
+<u>left.html</u><BR><BR>
+< HTML><BR>
+< HEAD><BR>
+< TITLE>left< / TITLE><BR>
+< / HEAD><BR>
+< BODY><BR>
+< a HREF="abt.html" target="right">About Us< / a>< br><BR>
+< a HREF="login.html" target="right">Log In< / a><BR>
+< / BODY><BR>
+< / HTML><BR>
+</TD>
+<TD>
+<u>right.html</u><BR><BR>
+< HTML><BR>
+< HEAD><BR>
+< TITLE>Right< / TITLE><BR>
+< / HEAD><BR>
+< BODY><BR>
+Right Frame<BR>
+< / BODY><BR>
+< / HTML><BR>
+<BR>
+</TD>
+</TR>
+</TABLE>
+<TABLE BORDER="2" WIDTH="100%">
+<TR>
+<TD>
+<u>abt.html</u><BR><BR>
+< HTML><BR>
+< HEAD><BR>
+< TITLE>About Us< / TITLE><BR>
+< / HEAD><BR>
+< BODY><BR>
+School of Computer Engineering<BR>< BR>
+KIIT University<BR>
+< / BODY>
+< / HTML>
+</TD>
+<TD>
+<u>login.html</u><BR><BR>
+< HTML><BR>
+< HEAD><BR>
+< TITLE>Login< / TITLE><BR>
+< / HEAD><BR>
+< BODY><BR>
+< FORM><BR>
+< INPUT TYPE="TEXT" NAME="UID">< BR><BR>
+< INPUT TYPE="PASSWORD" NAME="PWD">< BR><BR>
+< BUTTON TYPE="SUBMIT" VALUE="SUBMIT"><BR>
+< / FORM><BR>
+< / BODY><BR>
+< / HTML><BR>
+</TD>
+</TR>
+</TABLE>
+<br>
+<a href="main.html" target="_blank">With the output given as:</a><br>
+<IMG SRC="screenshot3.png">
+<IMG SRC="screenshot4.png">
+</TABLE>
+</center>
+<br>
+<B><a href="main.html" target="_blank">You can also open the Main page here:</a></B>
+</TABLE>
+<H1><CENTER>THANK YOU! KEEP LEARNING!</CENTER></H1>
+</BODY>
+</HTML>

@@ -1,0 +1,6 @@
+			     <li> Priyotosh - Email: 1705869@kiit.ac.in</li>
+			     <li> Gaurav - Email: 1705847@kiit.ac.in</li>
+			     <li> Srijan - Email: 1705857@kiit.ac.in</li>
+		     	 <li> Shashwat - Email: 1705823@kiit.ac.in</li>
+				 <li> Ritik - Email: 1705811@kiit.ac.in</li>
+				 <li> Swapneswar - Email: 1705835@kiit.ac.in</li>

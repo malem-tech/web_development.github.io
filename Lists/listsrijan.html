@@ -1,0 +1,251 @@
+<html>
+<head>
+<style>
+body {
+    background-image: url("test.jpg");
+
+}
+</style>
+</head>
+<body>
+<img src="logo.jpg" height="200px" width="300px" align="right"> 
+<h1><b><font size="15" color="brown">HTML</font> <span><font size="15" color="Brown">LISTS</font>
+</span></b></h1></center>
+<h2><font size="5" color="magenta">INTRODUCTION</font></h2>
+<p><font size="5">Lists are used to group together related pieces of information so they are clearly associated with each other 
+and easy to read. In modern web development, lists are workhorse elements, frequently used for navigation as well 
+as general content.</font></p>
+<div>
+<h3><font size="5" color="maroon"><i> HTML list examples</i></font></h3>
+<div>
+<div>
+<div>
+<h3><font size="5" color="green"><u>An Unordered List:</u></font></h3>
+<ul>
+  <li><h3>Item1</h3></li>
+  <li><h3>Item2</h3></li>
+  <li><h3>Item3</h3></li>
+  <li><h3>Item4</h3></li>    
+</ul>
+</div>
+<div>
+<h3><font size="5" color="green"><u>An Ordered List:</u></font></h3>
+<ol>
+  <li><h3>First item</h3></li>
+  <li><h3>Second item</h3></li>
+  <li><h3>Third item</h3></li>
+  <li><h3>Fourth item</h3></li>  
+</ol>
+</div>
+
+<div>
+<h3><font size="5" color="green"><u>A Definition List:</u></font></h3>
+<dl>
+  <dt><h3>First item</h3></dt>
+  <dt><h3>Second item</h3></dt>
+  <dt><h3>Third item</h3></dt>
+  <dt><h3>Fourth item</h3></dt>  
+</dl>  
+</div>
+<h2><font size="6" color="purple">Unordered HTML List</font></h2>
+<p><font size="5">An unordered list starts with the <code>&lt;ul&gt;</code> tag. Each list item starts with the 
+<code>&lt;li&gt;</code> tag.</font></p>
+<p><font size="5">The list items will be marked with bullets (small black circles) by default:</font></p>
+<div>
+<h3><u><font size="5">Example</font></u></h3>
+
+<div><font size="5">
+&lt;ul&gt;<br>
+ 
+&lt;li&gt;Coffee&lt;/li&gt;<br>  &lt;li&gt;Tea&lt;/li&gt;<br>
+ 
+&lt;li&gt;Milk&lt;/li&gt;<br>
+&lt;/ul&gt;
+</font></div>
+
+
+<h2><font size="5" color="purple">Unordered HTML List - Choose List Item Marker</font></h2>
+<p><font size="5">The CSS <code>list-style-type</code> property is used to define the style of the 
+list item marker:</font></p>
+<table>
+<tr>
+<th><h3>Value</h3></th>
+<th><h3>Description</h3></th>
+</tr>
+<tr>
+<td><h3>disc</h3></td>
+<td><h3>Sets the list item marker to a bullet (default)</h3></td>
+</tr>
+<tr>
+<td><h3>circle</h3></td>
+<td><h3>Sets the list item marker to a circle</h3></td>
+</tr>
+<tr>
+<td><h3>square</h3></td>
+<td><h3>Sets the list item marker to a square</h3></td>
+</tr>
+<tr>
+<td><h3>none</h3></td>
+<td><h3>The list items will not be marked</h3></td>
+</tr>
+</table>
+
+<div>
+<h3><u>Example - Disc</u></h3>
+<div><font size="5">
+&lt;ul style=&quot;list-style-type:disc&quot;&gt;<br>  &lt;li&gt;Coffee&lt;/li&gt;<br>
+  &lt;li&gt;Tea&lt;/li&gt;<br>  &lt;li&gt;Milk&lt;/li&gt;<br>&lt;/ul&gt;
+</font></div>
+
+<h2><font size="5" color="purple">Ordered HTML List</font></h2>
+<p><h3>An ordered list starts with the <code>&lt;ol&gt;</code> tag. Each list item starts with the <code>&lt;li&gt;</code> tag.</p>
+<p>The list items will be marked with numbers by default:</h3></p>
+<div>
+<h3><u>Example</u></h3>
+<div><font size="5">
+&lt;ol&gt;<br>
+ 
+&lt;li&gt;Coffee&lt;/li&gt;<br>  &lt;li&gt;Tea&lt;/li&gt;<br>
+ 
+&lt;li&gt;Milk&lt;/li&gt;<br>
+&lt;/ol&gt;
+</font></div>
+
+
+<h2><font size="5" color="purple">Ordered HTML List - The Type Attribute</font></h2>
+<p><font size="5">The <code>type</code> attribute of the <code>&lt;ol&gt;</code> tag, defines the type of the 
+list item marker:</font></p>
+<table>
+<tr>
+<th><h3>Type</h3></th>
+<th><h3>Description</h3></th>
+</tr>
+<tr>
+<td><h3>type=&quot;1&quot;</h3></td>
+<td><h3>The list items will be numbered with numbers (default)</h3></td>
+</tr>
+<tr>
+<td><h3>type=&quot;A&quot;</h3></td>
+<td><h3>The list items will be numbered with uppercase letters</h3></td>
+</tr>
+<tr>
+<td><h3>type=&quot;a&quot;</h3></td>
+<td><h3>The list items will be numbered with lowercase letters</h3></td>
+</tr>
+<tr>
+<td><h3>type=&quot;I&quot;</h3></td>
+<td><h3>The list items will be numbered with uppercase roman numbers</h3></td>
+</tr>
+<tr>
+<td><type=&quot;i&quot;</td>
+<td>The list items will be numbered with lowercase roman numbers</td>
+</tr>
+</table>
+
+<div>
+<h3>Numbers:</h3>
+<div>
+&lt;ol type=&quot;1&quot;&gt;<br>  &lt;li&gt;Coffee&lt;/li&gt;<br>
+  &lt;li&gt;Tea&lt;/li&gt;<br>  &lt;li&gt;Milk&lt;/li&gt;<br>&lt;/ol&gt;
+</div>
+
+<h2><font size="6" color="purple">HTML Description Lists</font></h2>
+<p>HTML also supports description lists.</p>
+<p>A description list is a list of terms, with a description of each term.</p>
+<p>The <code>&lt;dl&gt;</code> tag defines the description list, the <code>&lt;dt&gt;</code> tag defines the term (name), and the <code>&lt;dd&gt;</code> 
+tag describes each term:</p>
+
+<div>
+<h3><u>Example</u></h3>
+<div>
+&lt;dl&gt;<br>
+ 
+&lt;dt&gt;Coffee&lt;/dt&gt;<br>
+ 
+&lt;dd&gt;- black hot drink&lt;/dd&gt;<br>
+ 
+&lt;dt&gt;Milk&lt;/dt&gt;<br>
+ 
+&lt;dd&gt;- white cold drink&lt;/dd&gt;<br>
+&lt;/dl&gt;
+</div>
+
+
+<h2><font size="6" color="purple">Nested HTML Lists</font></h2>
+<p>List can be nested (lists inside lists):</p>
+<div>
+<h3><u>Example</u></h3>
+<div>
+&lt;ul&gt;<br>  &lt;li&gt;Coffee&lt;/li&gt;<br>  &lt;li&gt;Tea<br>
+    &lt;ul&gt;<br>      
+&lt;li&gt;Black tea&lt;/li&gt;<br>      &lt;li&gt;Green tea&lt;/li&gt;<br>
+    &lt;/ul&gt;<br>  
+&lt;/li&gt;<br>  &lt;li&gt;Milk&lt;/li&gt;<br>&lt;/ul&gt;
+</div>
+
+<div>
+  <p><strong>Note:</strong> List items can contain new list, and other HTML elements, like images and links, etc.</font></p>
+</div>
+
+
+<h2><font size="6" color="purple">Control List Counting</font></h2>
+<p><font size="5">By default, an ordered list will start counting from 1. If you want to start counting from a specified number, you can use the <code>start</code> attribute:</p>
+<div>
+<h3><u>Example</u></h3>
+<div>
+  &lt;ol start=&quot;50&quot;&gt;<br>  &lt;li&gt;Coffee&lt;/li&gt;<br>  &lt;li&gt;Tea&lt;/li&gt;<br>  
+  &lt;li&gt;Milk&lt;/li&gt;<br>&lt;/ol&gt;</div>
+
+
+<h2><font size="6" color="purple">Horizontal List with CSS</font></h2>
+<p>HTML lists can be styled in many different ways with CSS.</p>
+<p>One popular way is to style a list horizontally, to create a navigation menu:</p>
+<div>
+<h3><u>Example</u></h3>
+<div>
+ &lt;!DOCTYPE html&gt;<br>&lt;html&gt;<br>&lt;head&gt;<br>&lt;style&gt;<br>ul {<br>    list-style-type: none;<br>    margin: 0;<br>    padding: 0;<br>    overflow: hidden;<br>    background-color: #333333;<br>}<br><br>li {<br>    float: left;<br>}<br><br>li a {<br>    display: block;<br>    color: white;<br>    text-align: center;<br>    padding: 16px;<br>    text-decoration: none;<br>}<br>
+ <br>li a:hover {<br>    background-color: #111111;<br>}<br>
+ &lt;/style&gt;<br>&lt;/head&gt;<br>&lt;body&gt;<br><br>&lt;ul&gt;<br>  &lt;li&gt;&lt;a href=&quot;#home&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;<br>  &lt;li&gt;&lt;a href=&quot;#news&quot;&gt;News&lt;/a&gt;&lt;/li&gt;<br>  &lt;li&gt;&lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;&lt;/<wbr>li&gt;<br>  &lt;li&gt;&lt;a href=&quot;#about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;<br>
+ &lt;/ul&gt;<br><br>&lt;/body&gt;<br>&lt;/html&gt;
+</div>
+
+
+
+<h2><font size="6" color="red">HTML List Tags</font></h2>
+<table>
+<tr>
+<th>Tag</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>&lt;ul&gt;</td>
+<td>Defines an unordered list</td>
+</tr>
+<tr>
+<td>&lt;ol&gt;</td>
+<td>Defines an ordered list</td>
+</tr>
+<tr>
+<td>&lt;li&gt;</td>
+<td>Defines a list item</td>
+</tr>
+<tr>
+<td>&lt;dl&gt;</td>
+<td>Defines a description list</td>
+</tr>
+<tr>
+<td>&lt;dt&gt;</td>
+<td>Defines a term in a description list</td>
+</tr>
+<tr>
+<td>&lt;dd&gt;</td>
+<td>Describes the term in a description list</td>
+</tr>
+</table>
+
+
+</div>
+</div></div></div></div></div></div></div></div></div></div></div>
+<marquee scrollamount="10" scrolldelay="2" behavior="alternate"  ><h1><font color="green" size="10">Kalinga Institute of Industrial Technology</font></h1></marquee>
+
+</body></html>
